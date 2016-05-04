@@ -1,0 +1,14 @@
+.chef
+.kitchen
+.vagrant
+.DS_Store
+
+# You should check in your Gemfile.lock in applications, and not in gems
+# This also matches Berksfile.lock
+external_tests/*.lock
+acceptance/Gemfile.lock
+omnibus/Gemfile.lock
+/*.lock
+/Gemfile.local
+
+scratchpad.txt
